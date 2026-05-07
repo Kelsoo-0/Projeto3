@@ -183,16 +183,16 @@ header nav ul li a:hover{
         top:80px;
         left:0;
         width:100%;
-        background:var(--color2);
+        background:var(--color7);
         flex-direction:column;
         padding:20px;
-        z-index:1001;
+        color:var(--color2);
+        z-index:1005;
         border-radius:20px;
-        box-shadow:0 10px 20px rgba(0,0,0.2);
-
+        box-shadow:0 10px 20px rgba(0, 0, 0, 0.2);
     }
     /* Força a exibição quando tiver a classe active */
-    nav .active{
+    nav.active{
         display:flex !important;
     }
     nav ul{
