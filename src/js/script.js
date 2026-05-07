@@ -12,6 +12,21 @@ window.onload = function(){
 
 }
 
+
 function trocar(cor){
     document.body.style.background = cor;
 }
+
+
+// Menu hambúrguer
+
+ document.addEventListener('DOMContentLoaded',()=>{
+        const menuIcone= document.getElementById("menuIcone");
+        const navMenu=document.querySelector("nav");
+        if(menuIcone && navMenu){
+            menuIcone.onclick=()=>{
+                navMenu.classList.toggle("active");
+                menuIcone.classList.toggle("open");
+            }
+        }
+})
